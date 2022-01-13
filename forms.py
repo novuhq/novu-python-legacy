@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, validator, Extra
 from enums import ChannelTypeEnum, ApiMethodEnum, ApiPathEnum
 
 
@@ -21,6 +21,10 @@ class NotifireConfigForm(BaseModel):
 
 
 class EventPayloadForm(BaseModel):
+
+    class Config:
+        extra = Extra.allow.value
+
     user_id: str
     first_name: Optional[str]
     last_name: Optional[str]
