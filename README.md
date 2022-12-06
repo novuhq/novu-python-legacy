@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://notifire.co">
-    <img width="200" src="https://notifire.co/img/logo.png">
+    <img width="200" src="https://super-static-assets.s3.amazonaws.com/1e9f5a51-c4c6-4fca-b6e8-25fa0186f139/images/1b0b8afa-a688-408a-bb0e-d30742073965.svg">
   </a>
 </p>
 
