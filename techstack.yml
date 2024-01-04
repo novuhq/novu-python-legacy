@@ -1,7 +1,8 @@
 repo_name: novuhq/novu-python-legacy
 report_id: 00ce5f1320d6415feae2bc62a28abfc8
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:11:36+00:00'
+timestamp: '2024-01-04T14:57:34+00:00'
 requested_by: scopsy
 provider: github
 branch: master
@@ -15,4 +16,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/novuhq/novu-python-legacy
   detection_source: Repo Metadata
